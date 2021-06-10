@@ -1,6 +1,6 @@
 package de.tum.in.ase.eist;
 
-public class ThermoAdapter implements ThermoInterface{
+public class ThermoAdapter implements ThermoInterface {
     private FahrenheitThermo thermo;
 
     public ThermoAdapter() {
@@ -9,6 +9,6 @@ public class ThermoAdapter implements ThermoInterface{
 
     @Override
     public double getTempC() {
-        return (thermo.getFahrenheitTemperature()-32) * 5 / 9;
+        return (thermo.getFahrenheitTemperature() - 32) * 5 / 9;
     }
 }
