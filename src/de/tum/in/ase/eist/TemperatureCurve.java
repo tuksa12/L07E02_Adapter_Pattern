@@ -12,7 +12,7 @@ public final class TemperatureCurve {
     public static void main(String[] args) {
 
         // TODO 4: Replace the implementation of CelsiusThermo with ThermoAdapter.
-        ThermoInterface thermo = new CelsiusThermo();
+        ThermoInterface thermo = new ThermoAdapter();
 
         DecimalFormat df = new DecimalFormat("#.#");
 
